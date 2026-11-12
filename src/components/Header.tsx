@@ -115,8 +115,17 @@ export const Header: React.FC<HeaderProps> = ({
 
           {/* Zone 3: 1 primary action */}
           <div className="flex items-center gap-3 shrink-0">
+            {/* System Developer Tag */}
+            <div
+              className="flex items-center gap-1.5 px-2.5 py-1 text-[11px] font-mono font-semibold text-amber-900 bg-amber-50 border border-amber-200 rounded-md shadow-2xs whitespace-nowrap"
+              title="System Developer: JAYED"
+            >
+              <span className="w-1.5 h-1.5 rounded-full bg-amber-600 animate-pulse" />
+              <span>System Developer: <strong className="font-bold text-amber-950">JAYED</strong></span>
+            </div>
+
             {/* Quick search input */}
-            <div className="relative hidden lg:block w-48">
+            <div className="relative hidden lg:block w-44">
               <Search className="w-3.5 h-3.5 absolute left-2.5 top-1/2 -translate-y-1/2 text-stone-400" />
               <input
                 type="text"
@@ -130,10 +139,11 @@ export const Header: React.FC<HeaderProps> = ({
             <button
               type="button"
               onClick={onOpenAddModal}
-              className="flex items-center gap-1.5 px-3.5 py-1.5 text-xs font-medium text-white bg-amber-800 hover:bg-amber-900 rounded-md shadow-sm transition-colors whitespace-nowrap shrink-0 focus-visible:ring-2 focus-visible:ring-amber-600 focus-visible:ring-offset-2"
+              className="flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium text-white bg-amber-800 hover:bg-amber-900 rounded-md shadow-sm transition-colors whitespace-nowrap shrink-0 focus-visible:ring-2 focus-visible:ring-amber-600 focus-visible:ring-offset-2"
             >
               <Plus className="w-3.5 h-3.5" />
-              <span>সদস্য যোগ করুন</span>
+              <span className="hidden sm:inline">সদস্য যোগ করুন</span>
+              <span className="sm:hidden">যোগ</span>
             </button>
           </div>
         </div>

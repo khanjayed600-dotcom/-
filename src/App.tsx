@@ -186,8 +186,12 @@ export default function App() {
       {/* Hero Notification Ribbon / Lineage Context */}
       <div className="bg-amber-900 text-amber-50 px-4 py-2 border-b border-amber-800 text-xs">
         <div className="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-3">
-          <div className="flex items-center gap-2">
-            <Sparkles className="w-4 h-4 text-amber-300 shrink-0" />
+          <div className="flex items-center gap-2.5">
+            <span className="px-2 py-0.5 text-[10px] uppercase font-mono font-bold tracking-wider bg-amber-950 text-amber-200 border border-amber-700/80 rounded shadow-xs">
+              System Developer: JAYED
+            </span>
+            <span className="text-amber-700 hidden md:inline">|</span>
+            <Sparkles className="w-3.5 h-3.5 text-amber-300 shrink-0 hidden sm:inline" />
             <span className="font-serif-bn">
               <strong>ধনাউল্লা মোল্লা</strong> থেকে শুরু করে <strong>ইয়াদ মোল্লা</strong> পর্যন্ত ৭ প্রজন্মের সম্পূর্ণ ধারাবাহিক বংশধারা
             </span>
@@ -305,7 +309,7 @@ export default function App() {
               মোল্লা পরিবার বংশধারা ও স্মৃতি সংরক্ষণালয়
             </p>
             <p className="text-[11px] text-stone-400 mt-0.5">
-              ধনাউল্লা মোল্লা · তোরাবদ্দীন মোল্লা · ওয়াজেদ আলী মোল্লা হতে ৭ম প্রজন্ম
+              ধনাউল্লা মোল্লা · তোরাবদ্দীন মোল্লা · ওয়াজেদ আলী মোল্লা হতে ৭ম প্রজন্ম · <span className="font-mono font-medium text-amber-800">System Developer: JAYED</span>
             </p>
           </div>
 
