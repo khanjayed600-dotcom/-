@@ -1,0 +1,6 @@
+{
+  "name": "মোল্লা বংশধারা - Molla Family Genealogy & Tree",
+  "description": "ধনাউল্লা মোল্লা থেকে শুরু করে ৭ প্রজন্মের বিস্তারিত ইন্টারঅ্যাক্টিভ পারিবারিক বংশলতিকা ও স্মৃতিগাথা।",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
